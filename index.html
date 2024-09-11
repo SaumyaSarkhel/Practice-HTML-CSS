@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Authors</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("background_image.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #000000; 
+            text-decoration: none;
+            text-align: center; 
+            font-size: xx-large;
+            margin-top: 50px;
+        }
+        p {
+            padding: 5px;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+        }
+
+        .author-item:hover {
+            background-color: #ffffff;
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        .author-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap:wrap;
+            margin-bottom: 100px;
+            display: inline-block;
+        }
+
+        .author-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .author-item {
+            width: 200px; 
+            height: 350px; 
+            border: 1px solid #464242;
+            text-align: center;
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 5px;
+        }
+
+        .author-item img {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+        }
+
+        .author-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .author-name {
+        margin-top: 10px;
+        font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .author-list {
+                justify-content: center;
+            }
+            .author-item {
+                width: 55%;
+                justify-content: space-between;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Indian Authors</h1>
+        <P> Indian authors have made significant contributions to the world of literature, producing works that have been acclaimed and celebrated globally. 
+            Their writings often explore themes of identity, social justice, and the complexities of human relationships.
+             From ancient epics like the Mahabharata and Ramayana to modern masterpieces by authors like Rabindranath Tagore, R.K. Narayan, and Mahasweta Devi, 
+             Indian literature has a rich and diverse tapestry that continues to captivate readers around the world.
+             <br> Some of named below: 
+        </P>
+    </div>
+
+    <div class="author-list">
+       
+      <div class="author-item">
+        <a href="new_page1.html">
+            <img src="author1.jpg" alt="Author 1">
+            <p class="author-name">Rabindranath Tagore</p>
+        </a>
+      </div>
+    
+      <div class="author-item"> 
+        <a href="new_page2.html">
+            <img src="author2.jpg" alt="Author 2">
+            <p class="author-name">Sarat Chandra Chattopadhyay</p>
+        </a>
+      </div>
+
+      <div class="author-item">
+       <a href="new_page3.html">
+            <img src="author3.jpg" alt="Author 3">
+            <p class="author-name">R.K. Narayan</p>
+        </a>
+      </div>
+
+      <div class="author-item">
+        <a href="new_page4.html">
+            <img src="author4.jpg" alt="Author 4">
+            <p class="author-name">Bankim Chandra Chattopadhyay</p>
+        </a>
+      </div>
+
+      <div class="author-item">
+        <a href="new_page5.html">
+            <img src="author5.jpg" alt="Author 5">
+            <p class="author-name">Mahasweta Devi</p>
+        </a>
+      </div>
+
+    </div>
+
+  </body>
+</html>
